@@ -25,8 +25,8 @@ const Footer = () => (
       {" "}|{" "}
       <Link to="/about">About</Link>
       <br />
-      <a target="_blank"  rel="noopener noreferrer" href="https://github.com/peterlharding/react-typescript-demo">
-        React Typescript Demo
+      <a target="_blank"  rel="noopener noreferrer" href="https://github.com/peterlharding/react-typescript-starter">
+        React Typescript Starter
       </a>
     </p>
   </footer>

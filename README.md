@@ -2,12 +2,15 @@
 
 ## Setting Up
 
-Added in routing and bootstrap
+Added in routing and bootstrap.
+
+Also included react-lorem-ipsum to flesh out some page content.
 
 ```
 npm i -s react-router-dom
 npm i -s react-bootstrap
 npm i -s bootstrap
+npm i -s react-lorem-ipsum
 ```
 
 Add the following CSS import into the top level index.ts after adding bootstrap module.
