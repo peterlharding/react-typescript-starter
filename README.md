@@ -16,8 +16,10 @@ Add the following CSS import into the top level index.ts
 
 Add these for typing info:
 
- npm i --save-dev @types/react-router-dom
- npm i --save-dev @types/react
+```
+npm i --save-dev @types/react-router-dom
+npm i --save-dev @types/react
+```
 
 
 ### react-router-bootstrap
