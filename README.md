@@ -4,21 +4,26 @@
 
 Added in routing and bootstrap
 
- npm i -s react-router-dom
- npm i -s react-bootstrap
- npm i -s bootstrap
+```
+npm i -s react-router-dom
+npm i -s react-bootstrap
+npm i -s bootstrap
+```
+
+Add the following CSS import into the top level index.ts after adding bootstrap module.
 
 
-Add the following CSS import into the top level index.ts
-
+```
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
 
 ## Adding Typing Information
 
 Add these for typing info:
 
 ```
-npm i --save-dev @types/react-router-dom
 npm i --save-dev @types/react
+npm i --save-dev @types/react-router-dom
 ```
 
 
