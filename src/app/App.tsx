@@ -1,5 +1,5 @@
 
-import {Route, Switch} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
 
@@ -12,11 +12,11 @@ function App() {
     <div id="app" className="d-flex flex-column h-100">
       <NavBar />
         <Container className="flex-grow-1 mt-5">
-        <Switch>
-          <Route path="/"                  exact component={Home} />
-          <Route path="/home"              exact component={Home} />
-          <Route path="/about"             exact component={About} />
-        </Switch>
+        <Routes>
+          <Route path="/"                   element={<Home/>} />
+          <Route path="/home"               element={<Home/>} />
+          <Route path="/about"              element={<About/>} />
+        </Routes>
       </Container>
       <Footer />
     </div>
